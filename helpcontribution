@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BlackTimber Labs HacktoberFest 2021</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="35x35" href="assets/img/favicon/favicon-35x35.png">
+    <link rel="icon" type="image/png" sizes="18x18" href="assets/img/favicon/favicon-18x18.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0d2eb8f025.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+	<a href="#" class="to-top">
+		<i class="fas fa-chevron-up"></i>
+	  </a>
+
+	  <script src="freelancer.js"></script>
+
+<!--
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-mgreen text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">HacktoberFest 2021</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="maintainers.html">Maintainers</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contributors.html">Contributors</a></li>
+                </ul>
+                <img src="assets/img/dark theme icon/moon.png" id="icon">
+            </div>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-daek bg-dark fixed-top">
+        <div class="container"><a class="navbar-" href="index.html">HacktoberFest 2021</a>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <nav>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a href="contributors.html"><i>Contributors</i></a></li>
+                    </ul>
+                    </nav>
+            </div>
+        </div>
+      </nav>
+
+    <!-- Navigation Bar -->
+    <navigation class="navigation">
+        <a href="#" class="navigation__link">Home</a> 
+        <a href="#" class="navigation__link">Resources</a>
+        <a href="#" class="navigation__link-events">Events<ion-icon name="chevron-down-outline"></ion-icon>
+         <ul class="navigation__ul">
+            <li class="navigation__ul-li">All Events</li>
+            <li class="navigation__ul-li">Event Organizer Kit</li>
+        </ul>
+        </a>
+        <a href="#" class="navigation__link">Giving</a>
+        <a href="#" class="navigation__link">FAQ</a>
+        <a href="#" class="navigation__link">Advisory Council</a>
+    </navigation>
+
+    <header class="top-container">
+        <a href="https://hacktoberfest.digitalocean.com/" target="_blank" rel="noopener" ><img src="assets/img/hfp.png"></a>
+
+        <div class="top__container-hacking">
+            <img src="assets/sign-up-accent-left.07ab168.svg" alt="Left Icon" class="hacking__left-icon">
+                <button class="button__hacking">
+                  <a href="https://hacktoberfest.digitalocean.com/profile" class="button__hacking-link" > Start Hacking</a>
+                </button>
+            <img src="assets/sign-up-accent-right.2faed05.svg" alt="Right Icon" class="hacking__right-icon">
+        </div>
+        
+        <span class="hacking__text">Presented by</span>
+        <div class="promotion">
+            <img src="assets/logo-digitalocean-gr.f6faef2.svg" alt="Digital Ocean Icon" class="promo__img">
+            <img src="assets/logo-appwrite-gr.1161116.svg" alt="AppWrite Icon" class="promo__img">
+            <img src="assets/logo-intel-gr.a510816.svg" alt="Intel Icon" class="promo__img-intel">
+            <img src="assets/logo-deepsource-gr.37aa9bc.svg" alt="DeepSource Icon" class="promo__img">
+        </div>
+
+        <div class="header__text-box">
+            <h6 class="text__box">Support open source throughout October!</h6>
+            <span class="support__box-text">Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.</s>
+        </div>
+    </header>
+  <div class="icon-bar">
+    <a href="https://discord.com/invite/hacktoberfest" id='discord' class="social" target='_blank' >
+        click to visit <i class="fab fa-discord"></i>
+    </a>
+    <a href="https://www.instagram.com/hacktoberfest/?hl=en" id='instagram' class="social" target='_blank'>
+        click to visit<i class="fab fa-instagram"></i>
+    </a>
+    <a href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fhacktoberfest.digitalocean.com' id='linkedin' class="social" target='_blank'>
+        click to visit<i class=" fab fa-linkedin"></i>
+    </a>
+    <a href="#!" id='github' class="social" target='_blank'>
+    click to visit<i class="fab fa-github"></i></a>
+</div>
+
+    <section class="mb-0" id="about">
+        <div class="container">
+            <h2 class="text-uppercase text-center">Hacktober<span>Fest</span> 2021</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="text-center">
+                    <p class="lead"><b>Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.</b></p>
+                    <p>
+                      <h6>This is how you can take part in HacktoberFest 2021</h6>
+                        <ul>
+                            <li>Prepare and share your project for collaboration</li>
+                            <li>Contribute to the betterment of a project via pull request</li>
+                            <li>Organize an event</li>
+                            <li>Mentor others</li>
+                            <li>Donate directly to open source projects</li>
+                        </ul>
+                        <p>For more rules and information regarding this event checkout their official website <a class="link-colour" href="http://hacktoberfest.digitalocean.com/">Hacktober Fest 2021</a></p>
+                    </p>
+                    <p class = "lead">
+                        This website has been created to document the developers who contributed to the repositories of BlackTimber Labs as a part of HacktoberFest '21.<br>
+                        Checkout the <a class="link-colour" href = "https://blacktimber-labs.github.io/HacktoberFest2021/contributors.html">Contributors</a> page to take a look at the profiles of the contributors!
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!--Contact Us Section-------->
+
+  <section class="contact-section">
+      <h2 class="contact" align = "center">Contact Us </h2>
+      <br>
+      <br>
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-4 mb-3 mb-md-0 " >
+                <div class="card py-4 h-100 eff">
+                    <div class="card-body text-center ">
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase text-black m-0">Address</h4>
+                        <hr class="my-4 mx-auto" />
+                        <div class="text-black">MANIPAL UNIVERSITY JAIPUR, Rajasthan</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0 ">
+                <div class="card py-4 h-100 eff">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-primary mb-2"></i>
+                        <h4 class="text-uppercase text-black m-0">Email</h4>
+                        <hr class="my-4 mx-auto" />
+                        <div id="r2" class="text-black"><a href="#">lead@blacktimberlabs.xyz</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100 eff">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase text-black m-0">Phone</h4>
+                        <hr class="my-4 mx-auto" />
+                       <!-- <div class="text-black">+91996897623</div> -->
+                        <a href="tel:+91996897623">+91996897623</a>
+                    </div>
+                </div>
+            </div>                     
+        </div>
+        <div class="social d-flex justify-content-center pb-5">
+            <a class="mx-2" href="https://chat.whatsapp.com/CVrBjAtYqxs6d7GFqZmhrR"><i class="fab fa-whatsapp"></i></a>
+            <a class="mx-2" href="https://discord.gg/up4JGVbZ8G"><i class="fab fa-discord"></i></a>
+            <a class="mx-2" href="https://github.com/BlackTimber-Labs"><i class="fab fa-github"></i></a>
+            <a class="mx-2" href="https://blacktimberlabs.xyz"><i class="fa fa-globe"></i></a>
+        </div>
+    </div>
+</section>
+
+    <div class="text-center text-white copyright py-4 bg-mgreen">
+        <div class="container"><small>Copyright ©&nbsp;BlackTimber Labs 2021</small></div>
+        <div class="container"><small>Made with ❤️ by Team BlackTimber Labs</small></div>
+        <div class="container"><small>For Open Source</small></div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+
+  icon.src = "assets/img/dark theme icon/sun.png";
+
+    }
+
+    else{
+
+        icon.src="assets/img/dark theme icon/moon.png";
+    }
+}
+
+
+    </script>
+
+</body>
+
+</html>
